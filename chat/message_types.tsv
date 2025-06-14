@@ -9,4 +9,8 @@ messageRegex	MessageType
 ^\[Money] Balance: ([0-9]+([,.][0-9]+)*) Emeralds$	MONEY_BALANCE
 ^\[Money] Du har sendt ([0-9]+([,.][0-9]+)*) Emerald to ([a-zA-Z0-9_]{2,16})\.$	MONEY_SEND
 ^\[Money] ([a-zA-Z0-9_]{2,16}) har sendt dig ([0-9]+([,.][0-9]+)*) Emerald\.$	MONEY_RECEIVE
+^\[Shop] You bought ([0-9]+([,.][0-9]+)*) ([\w\s]+) from ([a-zA-Z0-9_]{2,16}) for ([0-9]+([,.][0-9]+)*) Emeralder\.$	SHOP_YOU_BOUGHT
+^\[Shop] ([a-zA-Z0-9_]{2,16}) bought ([0-9]+(?:[,.][0-9]+)*) ((?:(?! from ).)+) for ([0-9]+(?:[,.][0-9]+)*) Emeralder\.$	SHOP_SOMEONE_BOUGHT
+^\[Shop] You sold ([0-9]+([,.][0-9]+)*) ([\w\s]+) to ([a-zA-Z0-9_]{2,16}) for ([0-9]+([,.][0-9]+)*) Emeralder\.$	SHOP_YOU_SOLD
+^\[Shop] ([a-zA-Z0-9_]{2,16}) sold ([0-9]+([,.][0-9]+)*) ((?:(?! to ).)+) for ([0-9]+([,.][0-9]+)*) Emeralder\.$	SHOP_SOMEONE_SOLD
 ^Du er lige nu forbundet til ([a-z]+), brug /server <navn> for at joine en anden server\.$	SERVER_CONNECTED
