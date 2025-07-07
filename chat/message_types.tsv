@@ -6,7 +6,7 @@ messageRegex	MessageType
 ^Du sendte ([0-9]+([,.][0-9]+)*) ([\w\s]+) \(([0-9]+([,.][0-9]+)*) tilbage\) til ([a-zA-Z0-9_]{2,16})\.$	TRANSPORTER_SEND
 ^Du modtog ([0-9]+([,.][0-9]+)*) ([\w\s]+) \(([0-9]+([,.][0-9]+)*) i alt\) fra ([a-zA-Z0-9_]{2,16})\.$	TRANSPORTER_RECEIVE
 ^([\w\s]+): ([0-9]+([,.][0-9]+)*)$	TRANSPORTER_LIST_ALL
-^\[Money] Balance: ([0-9]+([,.][0-9]+)*) Emeralds$	MONEY_BALANCE
+^\[Money] Balance: ([0-9]+([,.][0-9]+)*) Emeralder$	MONEY_BALANCE
 ^\[Money] Du har sendt ([0-9]+([,.][0-9]+)*) Emerald to ([a-zA-Z0-9_]{2,16})\.$	MONEY_SEND
 ^\[Money] ([a-zA-Z0-9_]{2,16}) har sendt dig ([0-9]+([,.][0-9]+)*) Emerald\.$	MONEY_RECEIVE
 ^\[Shop] You bought ([0-9]+([,.][0-9]+)*) ([\w\s]+) from ([a-zA-Z0-9_]{2,16}) for ([0-9]+([,.][0-9]+)*) Emeralder\.$	SHOP_YOU_BOUGHT
