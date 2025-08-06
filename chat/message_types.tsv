@@ -1,7 +1,7 @@
 messageRegex	MessageType
 ^Du har nu puttet følgende i din transporter:$	TRANSPORTER_PUT_ALL_HEADER
 ^([\w\s]+): ([0-9]+([,.][0-9]+)*) \(([0-9]+([,.][0-9]+)*) i alt\)$	TRANSPORTER_PUT_ALL
-^Du har intet at putte i din transporter!$  TRANSPORTER_PUT_ALL_NO_ITEMS_LEFT
+^Du har intet at putte i din transporter!$	TRANSPORTER_PUT_ALL_NO_ITEMS_LEFT
 ^Du har taget ([0-9]+([,.][0-9]+)*) ([\w\s]+) \(([0-9]+([,.][0-9]+)*) tilbage\) fra din transporter\.$	TRANSPORTER_GET
 ^Tog ([0-9]+([,.][0-9]+)*) ([\w\s]+) fra din transporter \(([0-9]+([,.][0-9]+)*) tilbage\) og overførte det til ([\w\s]+)\.$	TRANSPORTER_GET
 ^Du har nu puttet ([0-9]+([,.][0-9]+)*) ([\w\s]+) \(([0-9]+([,.][0-9]+)*) i alt\) i din transporter\.$	TRANSPORTER_PUT
