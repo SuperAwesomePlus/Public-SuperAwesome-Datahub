@@ -11,7 +11,7 @@ messageRegex	MessageType
 ^Du modtog ([0-9]+([,.][0-9]+)*) ([\w\s]+) \(([0-9]+([,.][0-9]+)*) i alt\) fra ([a-zA-Z0-9_]{2,16})\.$	TRANSPORTER_RECEIVE
 ^Du har følgende i din transporter:$	TRANSPORTER_LIST_ALL_HEADER
 ^([\w\s]+): ([0-9]+([,.][0-9]+)*)$	TRANSPORTER_LIST_ALL
-^\[Money] Balance: ([0-9]+([,.][0-9]+)*) Emeralder$	MONEY_BALANCE
+^\[Money] Balance: ((-)?[0-9]+([,.][0-9]+)*) Emeralder$	MONEY_BALANCE
 ^\[Money] Du har sendt ([0-9]+([,.][0-9]+)*) Emerald to ([a-zA-Z0-9_]{2,16})\.$	MONEY_SEND
 ^\[Money] ([a-zA-Z0-9_]{2,16}) har sendt dig ([0-9]+([,.][0-9]+)*) Emerald\.$	MONEY_RECEIVE
 ^Du tog ([0-9]+([,.][0-9]+)*) emeralder fra maskinens inventar\.$	MACHINE_PAYOUT
