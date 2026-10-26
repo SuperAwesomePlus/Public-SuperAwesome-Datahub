@@ -7,3 +7,8 @@ Offentlige data om SuperAwesome vi benytter os af i vores projekter.
 > 
 > Dataene kan benyttes af alle og vi modtager gerne bidrag, også hvis det ikke er med henblik på at det skal benyttes til SuperAwesome+.
 > Dvs. hvis du laver dit eget projekt og du gerne vil gemme nogle offtenlige data sammen med nogle af dem vi benytter os af, skal du være velkommen til at oprette en pull request hvor du forklare dette.
+
+## Message patterns
+
+- [Chat messages](chat/README.md)
+- [Action-bar messages](actionbar/README.md)
